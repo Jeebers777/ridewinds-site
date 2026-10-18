@@ -1,0 +1,26 @@
+{
+  "updated": "2026-10-18",
+  "storyTitle": "Riding for Therese & Mike",
+  "story": "Cancer has taken too much from too many. I have lost my mum, her brother, and two of her sisters to this disease. While my wife lost her dad. I'm riding to honour them and to help fund the research that gives others a better chance. Your support directly contributes to that fight.",
+  "aboutCause": "Tour de Cure raises vital funds to support the researchers, surgeons and clinicians who dedicate their lives to finding a cure for cancer. Founded in 2007, Tour de Cure has raised over $177 million, funded more than 1,359 cancer research, support and prevention projects, and 275 cancer research breakthroughs. They won't stop until there's a cure.",
+  "fundraiserURL": "https://signaturetour.tourdecure.com.au/john-dietz",
+  "fundraiserLabel": "Donate on Tour de Cure",
+  "campaignName": "Signature Tour",
+  "campaignRaised": 50,
+  "campaignGoal": 12000,
+  "proceedsNote": "All net proceeds from this app are donated to Tour de Cure — that's the app's revenue after Apple's commission, forecast-data fees, and any advertising spent to reach more riders. Buying the app and donating directly are separate things: a direct donation goes straight to Tour de Cure and is tax-deductible in Australia.",
+  "totalDonated": 0,
+  "totalCurrency": "AUD",
+  "totalAsOf": "2026-10-18",
+  "dedicationHowTo": "Supporters who donate on the fundraiser page can dedicate the ride to someone — in honour, or in memory. Their names ride here.",
+  "appStoreURL": null,
+  "dedications": [
+    {
+      "name": "Sample name",
+      "line": "Replace me — dedications are added here as supporters donate.",
+      "date": "2026-10-01"
+    }
+  ],
+  "campaignShowFrom": 1000,
+  "proceedsBreakdown": null
+}
