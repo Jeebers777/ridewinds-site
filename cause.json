@@ -12,7 +12,7 @@
   "totalDonated": 0,
   "totalCurrency": "AUD",
   "totalAsOf": "2026-10-18",
-  "dedicationHowTo": "Supporters who donate more than $50 AUD on the fundraiser page can dedicate the ride to someone — in honour, or in memory. Their names ride here. Just add their name and a short line in the 'Your Message' field when you donate, and your message will appear within 5 business days.",
+  "dedicationHowTo": "Supporters who donate more than $50 AUD on the fundraiser page can dedicate the ride to someone — in honour, or in memory. Their names ride here. Just add their name and a short line in the 'Your Message' field when you donate, and your message will appear here within a few days.",
   "appStoreURL": null,
   "dedications": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "name": "Michael Maloney",
-      "line": "Ridden in your memory, Mad Dog.",
+      "line": "Riding in your memory, Mad Dog.",
       "date": "2026-10-18"
       
     },
