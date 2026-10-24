@@ -14,6 +14,7 @@
   "totalAsOf": "2026-10-18",
   "dedicationHowTo": "Supporters who donate more than $50 AUD on the fundraiser page can dedicate the ride to someone — in honour, or in memory. Their names ride here. Just add their name and a short line in the 'Your Message' field when you donate, and your message will appear here within a few days.",
   "appStoreURL": null,
+  "testFlightURL": null,
   "dedications": [
     {
       "name": "Therese Dietz",
@@ -24,19 +25,16 @@
       "name": "Michael Maloney",
       "line": "Riding in your memory, Mad Dog.",
       "date": "2026-10-18"
-      
     },
     {
       "name": "Kate Keating",
       "line": "Big smile, big red hair, big in our memories, much love.",
       "date": "2026-10-18"
-      
     },
     {
-        "name": "John Marks",
-        "line": "The nicest chopper you'll ever meet.",
-        "date": "2026-10-18"
-        
+      "name": "John Marks",
+      "line": "The nicest chopper you'll ever meet.",
+      "date": "2026-10-18"
     }
   ],
   "campaignShowFrom": 1000,
