@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>RideWinds — join the beta</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="RideWinds picks which of your rides to do, in which direction and when, from the wind forecast along the route. Join the iPhone beta.">
+<meta property="og:title" content="RideWinds — join the beta">
+<meta property="og:description" content="Which ride, which way and when, from the wind along your route. Then: was it the wind or you?">
+<meta property="og:image" content="https://jeebers777.github.io/ridewinds-site/img/ride-map.jpg">
+<style>
+:root{--ink:#16202e;--soft:#5b6676;--bg:#f4f6fa;--card:#fff;--blue:#1e5fd0;--line:#dfe4ec}
+@media (prefers-color-scheme:dark){:root{--ink:#eef2f8;--soft:#a3adbd;--bg:#0b1220;--card:#141c2c;--blue:#7fb0ff;--line:#263146}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 -apple-system,system-ui,"Segoe UI",sans-serif}
+header{background:linear-gradient(160deg,#1f55c9,#143a94 55%,#0b2466);color:#fff;padding:3rem 1rem 3.25rem;text-align:center}
+header img{width:88px;height:88px;border-radius:20px;box-shadow:0 6px 20px rgba(0,0,0,.35)}
+h1{font-size:2.1rem;line-height:1.15;margin:1rem auto .6rem;max-width:22ch;text-wrap:balance}
+header p{margin:0 auto;max-width:34rem;color:#d9e5ff}
+.join{display:inline-block;margin-top:1.5rem;padding:.85rem 1.6rem;border-radius:999px;background:#fff;color:#143a94;font-weight:600;text-decoration:none}
+main{max-width:60rem;margin:0 auto;padding:1rem 1rem 3rem}
+section{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:2.5rem;align-items:center;padding:2.5rem 0;border-bottom:1px solid var(--line)}
+section:nth-of-type(even){grid-template-columns:minmax(0,1fr) minmax(0,300px)}
+section:nth-of-type(even) .shot{order:2}
+.shot{display:flex;gap:.75rem;justify-content:center}
+.shot img{width:100%;max-width:300px;height:auto;border-radius:28px;border:1px solid var(--line);box-shadow:0 10px 30px rgba(10,30,80,.18)}
+.two img{max-width:calc(50% - .4rem)}
+.kicker{color:var(--blue);font-weight:600;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;margin:0}
+h2{font-size:1.6rem;line-height:1.2;margin:.3rem 0 .7rem;text-wrap:balance}
+section p{margin:.6rem 0;color:var(--soft);max-width:34rem}
+.how{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:1.5rem;margin-top:2.5rem}
+.how h2{margin-top:0}
+.how ol{margin:0;padding-left:1.3rem}
+.how li{margin:.5rem 0}
+a{color:var(--blue)}
+.how .join{background:var(--blue);color:#fff;margin-top:1rem}
+@media (prefers-color-scheme:dark){.how .join{color:#0b1220}}
+footer{max-width:60rem;margin:0 auto;padding:0 1rem 3rem;color:var(--soft);font-size:.9rem}
+@media (max-width:700px){
+  section,section:nth-of-type(even){grid-template-columns:1fr;gap:1.25rem;padding:2rem 0}
+  section:nth-of-type(even) .shot{order:0}
+  h1{font-size:1.8rem}
+}
+</style>
+
+<header>
+  <img src="img/icon.png" alt="RideWinds icon">
+  <h1>Which ride, which way, and when</h1>
+  <p>RideWinds scores your own routes by the wind forecast along the road. After the ride it tells you whether it was the wind or you.</p>
+  <a class="join" href="https://testflight.apple.com/join/r2KTRyGk">Join the iPhone beta</a>
+</header>
+
+<main>
+  <section>
+    <div class="shot"><img src="img/best-ride.jpg" width="780" height="1695" alt="The Rides tab: current conditions, and the top pick with its tailwind home and rain risk"></div>
+    <div>
+      <p class="kicker">Before you go</p>
+      <h2>Best ride picks from your routes</h2>
+      <p>Tell it how far you want to go and what you want from the wind, such as a tailwind home. It ranks your routes, in both directions, and names the hour to leave.</p>
+      <p>It also says when not to go. The pick shown here is a wet day: rain is a veto, not a small penalty.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="shot"><img src="img/ride-map.jpg" width="780" height="1695" alt="A ride on the map, coloured by headwind, crosswind and tailwind, with the wind drawn over it"></div>
+    <div>
+      <p class="kicker">On the map</p>
+      <h2>The wind along the actual road</h2>
+      <p>Every stretch is coloured for the hour you will be on it: red for a headwind, amber for a crosswind, green for a tailwind.</p>
+      <p>Drag the time to see how a later start changes the ride, or play it through.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="shot two">
+      <img src="img/debrief.jpg" width="780" height="1695" alt="A ride debrief: the wind cost about 7 minutes">
+      <img src="img/debrief-charts.jpg" width="780" height="1695" alt="Debrief charts: what blew and what reached you, and what the wind cost along the road">
+    </div>
+    <div>
+      <p class="kicker">After the ride</p>
+      <h2>Was it the wind or you?</h2>
+      <p>Share the file from your head unit, or connect Strava and the app finds the ride. The debrief compares what was forecast, what blew over the district and what reached you on the road.</p>
+      <p>Then it puts a figure on it: what the wind cost you in minutes, stretch by stretch. These are estimates, and the app says "about" wherever it is estimating.</p>
+    </div>
+  </section>
+
+  <div class="how">
+    <h2>How to join</h2>
+    <ol>
+      <li>On your iPhone, install Apple's free <a href="https://apps.apple.com/app/testflight/id899247664">TestFlight</a> app.</li>
+      <li>Tap <a href="https://testflight.apple.com/join/r2KTRyGk">this link</a> and choose Accept, then Install.</li>
+      <li>Open RideWinds, say where you ride, and add a route or two: from Strava, or a GPX or FIT file.</li>
+    </ol>
+    <p>Any feedback helps, even "I didn't get it". Shake the phone in the app, or write to <a href="mailto:hello@ridewinds.app">hello@ridewinds.app</a>.</p>
+    <a class="join" href="https://testflight.apple.com/join/r2KTRyGk">Join the iPhone beta</a>
+  </div>
+</main>
+
+<footer>
+  <p>All proceeds from the sale of the app go to <a href="https://signaturetour.tourdecure.com.au/john-dietz">Tour de Cure</a>, after GST, Apple's commission and the base app's running costs. The beta is free.</p>
+  <p><a href="index.html">RideWinds</a> · <a href="privacy.html">Privacy policy</a></p>
+</footer>
+</html>
